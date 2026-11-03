@@ -1,0 +1,18 @@
+[
+  {
+    "number": 14,
+    "title": "Settings screen crashes when the profile photo is missing",
+    "body": "Steps:\n1. Sign in with an account that has no photo\n2. Open Settings\n\nThe app closes.",
+    "url": "https://github.com/example/app/issues/14",
+    "labels": [{ "name": "bot" }, { "name": "crash" }],
+    "createdAt": "2026-10-29T09:12:00Z"
+  },
+  {
+    "number": 9,
+    "title": "Button text is cut off on small phones",
+    "body": "",
+    "url": "https://github.com/example/app/issues/9",
+    "labels": [{ "name": "bot" }],
+    "createdAt": "2026-10-20T16:40:00Z"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "issues": [
+    { "id": "10050", "key": "APP-9", "fields": { "summary": "Dark mode text is unreadable", "description": null, "issuetype": { "name": "Bug" } } }
+  ],
+  "isLast": true
+}

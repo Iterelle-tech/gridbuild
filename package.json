@@ -1,0 +1,17 @@
+{
+  "name": "gridbuild",
+  "version": "0.1.0",
+  "description": "An AI engineering team for your mobile app. It watches your tickets and crash reports, picks up the work, and opens tested pull requests from your own machines.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "gridbuild": "src/cli.ts"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test",
+    "dry-run": "node test/dry-run.ts"
+  }
+}

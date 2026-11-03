@@ -1,0 +1,22 @@
+{
+  "kind": "bigquery#queryResponse",
+  "jobComplete": true,
+  "totalRows": "1",
+  "schema": {
+    "fields": [
+      {
+        "name": "row",
+        "type": "STRING"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "f": [
+        {
+          "v": "{\"issue_id\": \"c0ffee1234\", \"events\": 4, \"users\": 3, \"first_seen\": \"2026-10-30T10:00:00Z\", \"last_seen\": \"2026-10-30T11:00:00Z\", \"app_versions\": [\"4.2.0\"], \"os_versions\": [\"iOS 26.0\"], \"devices\": [\"Apple iPhone17,1\"], \"sample\": {\"error_type\": \"FATAL\", \"blame_frame\": {\"symbol\": \"ProfileView.avatarURL.getter\", \"file\": \"ProfileView.swift\", \"line\": 41, \"library\": \"Example\"}, \"error\": [], \"threads\": [{\"crashed\": false, \"thread_name\": \"com.apple.main-thread\", \"frames\": []}, {\"crashed\": true, \"title\": \"EXC_BREAKPOINT\", \"subtitle\": \"ProfileView.avatarURL.getter\", \"signal_name\": \"SIGTRAP\", \"signal_code\": \"0\", \"thread_name\": \"Thread 0\", \"frames\": [{\"symbol\": \"ProfileView.avatarURL.getter\", \"file\": \"ProfileView.swift\", \"line\": 41, \"library\": \"Example\"}]}]}}"
+        }
+      ]
+    }
+  ]
+}

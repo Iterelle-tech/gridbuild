@@ -1,0 +1,7 @@
+.DS_Store
+.env
+.env.*
+
+# Local recordings from runs
+*.mp4
+*.mov

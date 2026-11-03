@@ -1,0 +1,22 @@
+{
+  "kind": "bigquery#queryResponse",
+  "jobComplete": true,
+  "totalRows": "1",
+  "schema": {
+    "fields": [
+      {
+        "name": "row",
+        "type": "STRING"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "f": [
+        {
+          "v": "{\"issue_id\": \"8f2c1a9e0b7d4c3a\", \"events\": 31, \"users\": 12, \"first_seen\": \"2026-10-30T07:12:44.120Z\", \"last_seen\": \"2026-10-30T21:03:10.004Z\", \"app_versions\": [\"4.2.0\", \"4.2.1\"], \"os_versions\": [\"Android 15\", \"Android 14\"], \"devices\": [\"Google Pixel 8\"], \"sample\": {\"error_type\": \"FATAL\", \"blame_frame\": {\"symbol\": \"com.example.app.checkout.CheckoutScreen.onPay\", \"file\": \"CheckoutScreen.kt\", \"line\": 88, \"blamed\": true}, \"exceptions\": [{\"type\": \"java.lang.IllegalStateException\", \"exception_message\": \"Cart is empty\", \"nested\": false, \"frames\": [{\"symbol\": \"com.example.app.checkout.CheckoutScreen.onPay\", \"file\": \"CheckoutScreen.kt\", \"line\": 88}, {\"symbol\": \"android.view.View.performClick\", \"file\": \"View.java\", \"line\": 7659}]}, {\"type\": \"java.lang.NullPointerException\", \"exception_message\": \"cart.items\", \"nested\": true, \"frames\": [{\"symbol\": \"com.example.app.cart.Cart.total\", \"file\": \"Cart.kt\", \"line\": 21}]}], \"threads\": []}}"
+        }
+      ]
+    }
+  ]
+}

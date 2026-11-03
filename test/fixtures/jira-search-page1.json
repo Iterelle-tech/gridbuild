@@ -1,0 +1,29 @@
+{
+  "issues": [
+    {
+      "id": "10042",
+      "key": "APP-7",
+      "fields": {
+        "summary": "Checkout button does nothing on Android",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            { "type": "paragraph", "content": [{ "type": "text", "text": "Tapping " }, { "type": "text", "text": "Pay now", "marks": [{ "type": "strong" }] }, { "type": "text", "text": " does nothing." }] },
+            { "type": "bulletList", "content": [
+              { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Pixel 8, Android 15" }] }] },
+              { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "App 4.2.0" }] }] }
+            ] },
+            { "type": "codeBlock", "content": [{ "type": "text", "text": "E/Checkout: onPress is undefined" }] }
+          ]
+        },
+        "issuetype": { "name": "Bug" },
+        "priority": { "name": "High" },
+        "labels": ["checkout"],
+        "status": { "name": "To Do" }
+      }
+    }
+  ],
+  "nextPageToken": "page-2",
+  "isLast": false
+}
